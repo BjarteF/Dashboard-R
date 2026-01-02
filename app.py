@@ -8,7 +8,7 @@ st.set_page_config(page_title="Salgsdashboard", layout="wide")
 # Her skal du lime inn lenken til ditt Google Sheet.
 # Husk: Hvis lenken slutter på "edit?usp=sharing", må du endre det til "export?format=csv"
 # For nå bruker vi en test-lenke slik at appen ikke krasjer før du legger inn din egen.
-SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRk_qYVfO8eO_O7oX4j8GkMv_aQn_wXW_rZk-2jX_x_yZ_w/pub?output=csv" 
+SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSOlsbymJKHivZ-UEbhBrOhWsKZu927JCVCqLbn2cYDcEFoAxyMOkNghXqwuTmf33Zb1Tgse4NXTYwM/pub?output=csv" 
 
 # --- LASTE DATA ---
 @st.cache_data(ttl=600)  # Cacher data i 10 minutter for hastighet
